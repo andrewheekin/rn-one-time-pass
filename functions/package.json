@@ -8,7 +8,7 @@
     "start": "npm run shell",
     "deploy": "firebase deploy --only functions",
     "logs": "firebase functions:log",
-    "prepare": "babel ../src/*.js -d ./"
+    "prepare": "babel src/ -d build/"
   },
   "dependencies": {
     "babel-runtime": "^6.26.0",
@@ -24,5 +24,6 @@
     "babel-preset-env": "^1.6.1",
     "babel-plugin-transform-object-rest-spread": "^6.26.0"
   },
+  "main": "build/index.js",
   "private": true
 }

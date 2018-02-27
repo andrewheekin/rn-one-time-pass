@@ -1,6 +1,7 @@
 functions/node_modules/
+functions/build/
 functions/service_account.json
-functions/twilio.js
-src/twilio.js
-.vscode
+functions/src/twilio.js
+functions/build/twilio.js
 .DS_Store
+.vscode

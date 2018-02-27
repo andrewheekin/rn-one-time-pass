@@ -1,7 +1,8 @@
 {
   "parserOptions": {
     // Required for certain syntax usages
-    "ecmaVersion": 6
+    "ecmaVersion": 2018,
+    "sourceType": "module"
   },
   "plugins": [
     "promise"
@@ -36,7 +37,7 @@
     "array-callback-return": 1,
 
     // Require the use of === and !==
-    "eqeqeq": 2,
+    // "eqeqeq": 2,
 
     // Disallow the use of alert, confirm, and prompt
     "no-alert": 2,
@@ -45,7 +46,7 @@
     "no-caller": 2,
 
     // Disallow null comparisons without type-checking operators
-    "no-eq-null": 2,
+    // "no-eq-null": 2,
 
     // Disallow the use of eval()
     "no-eval": 2,
